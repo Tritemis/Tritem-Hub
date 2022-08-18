@@ -4,7 +4,7 @@ Watch this tutorial () how to do it, all links inside tutorial
 */
 var RunnerInstance = Runner.instance_;
 function SetRunnerSpeed(changespeed_true_or_false,ohnumber_blank_if_no) {
-    if (changespeed==true) {
+    if (changespeed_true_or_false==true) {
         RunnerInstance.setSpeed(ohnumber_blank_if_no);
     }
 }
